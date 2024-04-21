@@ -1,0 +1,42 @@
+running egg_info
+creating ../../../build/automatic_dog_feeder/automatic_dog_feeder.egg-info
+writing ../../../build/automatic_dog_feeder/automatic_dog_feeder.egg-info/PKG-INFO
+writing dependency_links to ../../../build/automatic_dog_feeder/automatic_dog_feeder.egg-info/dependency_links.txt
+writing entry points to ../../../build/automatic_dog_feeder/automatic_dog_feeder.egg-info/entry_points.txt
+writing requirements to ../../../build/automatic_dog_feeder/automatic_dog_feeder.egg-info/requires.txt
+writing top-level names to ../../../build/automatic_dog_feeder/automatic_dog_feeder.egg-info/top_level.txt
+writing manifest file '../../../build/automatic_dog_feeder/automatic_dog_feeder.egg-info/SOURCES.txt'
+reading manifest file '../../../build/automatic_dog_feeder/automatic_dog_feeder.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../build/automatic_dog_feeder/automatic_dog_feeder.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/user/build/automatic_dog_feeder/build
+creating /home/user/build/automatic_dog_feeder/build/lib
+creating /home/user/build/automatic_dog_feeder/build/lib/automatic_dog_feeder
+copying automatic_dog_feeder/PIRsensor.py -> /home/user/build/automatic_dog_feeder/build/lib/automatic_dog_feeder
+copying automatic_dog_feeder/__init__.py -> /home/user/build/automatic_dog_feeder/build/lib/automatic_dog_feeder
+copying automatic_dog_feeder/video_recording_node.py -> /home/user/build/automatic_dog_feeder/build/lib/automatic_dog_feeder
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/user/install/automatic_dog_feeder/lib/python3.10/site-packages/automatic_dog_feeder
+copying /home/user/build/automatic_dog_feeder/build/lib/automatic_dog_feeder/PIRsensor.py -> /home/user/install/automatic_dog_feeder/lib/python3.10/site-packages/automatic_dog_feeder
+copying /home/user/build/automatic_dog_feeder/build/lib/automatic_dog_feeder/__init__.py -> /home/user/install/automatic_dog_feeder/lib/python3.10/site-packages/automatic_dog_feeder
+copying /home/user/build/automatic_dog_feeder/build/lib/automatic_dog_feeder/video_recording_node.py -> /home/user/install/automatic_dog_feeder/lib/python3.10/site-packages/automatic_dog_feeder
+byte-compiling /home/user/install/automatic_dog_feeder/lib/python3.10/site-packages/automatic_dog_feeder/PIRsensor.py to PIRsensor.cpython-310.pyc
+byte-compiling /home/user/install/automatic_dog_feeder/lib/python3.10/site-packages/automatic_dog_feeder/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/user/install/automatic_dog_feeder/lib/python3.10/site-packages/automatic_dog_feeder/video_recording_node.py to video_recording_node.cpython-310.pyc
+running install_data
+creating /home/user/install/automatic_dog_feeder/share/ament_index
+creating /home/user/install/automatic_dog_feeder/share/ament_index/resource_index
+creating /home/user/install/automatic_dog_feeder/share/ament_index/resource_index/packages
+copying resource/automatic_dog_feeder -> /home/user/install/automatic_dog_feeder/share/ament_index/resource_index/packages
+copying package.xml -> /home/user/install/automatic_dog_feeder/share/automatic_dog_feeder
+running install_egg_info
+Copying ../../../build/automatic_dog_feeder/automatic_dog_feeder.egg-info to /home/user/install/automatic_dog_feeder/lib/python3.10/site-packages/automatic_dog_feeder-0.0.0-py3.10.egg-info
+running install_scripts
+Installing PIRsensor script to /home/user/install/automatic_dog_feeder/lib/automatic_dog_feeder
+Installing video_recording_node script to /home/user/install/automatic_dog_feeder/lib/automatic_dog_feeder
+writing list of installed files to '/home/user/build/automatic_dog_feeder/install.log'

@@ -1,0 +1,44 @@
+[1.202s] Invoking command in '/home/user/ros2_ws/src/automatic_dog_feeder': PYTHONPATH=/home/user/build/automatic_dog_feeder/prefix_override:/home/user/install/automatic_dog_feeder/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../../build/automatic_dog_feeder build --build-base /home/user/build/automatic_dog_feeder/build install --record /home/user/build/automatic_dog_feeder/install.log --single-version-externally-managed
+[1.676s] running egg_info
+[1.677s] creating ../../../build/automatic_dog_feeder/automatic_dog_feeder.egg-info
+[1.677s] writing ../../../build/automatic_dog_feeder/automatic_dog_feeder.egg-info/PKG-INFO
+[1.677s] writing dependency_links to ../../../build/automatic_dog_feeder/automatic_dog_feeder.egg-info/dependency_links.txt
+[1.678s] writing entry points to ../../../build/automatic_dog_feeder/automatic_dog_feeder.egg-info/entry_points.txt
+[1.678s] writing requirements to ../../../build/automatic_dog_feeder/automatic_dog_feeder.egg-info/requires.txt
+[1.678s] writing top-level names to ../../../build/automatic_dog_feeder/automatic_dog_feeder.egg-info/top_level.txt
+[1.678s] writing manifest file '../../../build/automatic_dog_feeder/automatic_dog_feeder.egg-info/SOURCES.txt'
+[1.681s] reading manifest file '../../../build/automatic_dog_feeder/automatic_dog_feeder.egg-info/SOURCES.txt'
+[1.681s] adding license file 'LICENSE'
+[1.683s] writing manifest file '../../../build/automatic_dog_feeder/automatic_dog_feeder.egg-info/SOURCES.txt'
+[1.684s] running build
+[1.684s] running build_py
+[1.684s] creating /home/user/build/automatic_dog_feeder/build
+[1.684s] creating /home/user/build/automatic_dog_feeder/build/lib
+[1.685s] creating /home/user/build/automatic_dog_feeder/build/lib/automatic_dog_feeder
+[1.685s] copying automatic_dog_feeder/PIRsensor.py -> /home/user/build/automatic_dog_feeder/build/lib/automatic_dog_feeder
+[1.685s] copying automatic_dog_feeder/__init__.py -> /home/user/build/automatic_dog_feeder/build/lib/automatic_dog_feeder
+[1.685s] copying automatic_dog_feeder/video_recording_node.py -> /home/user/build/automatic_dog_feeder/build/lib/automatic_dog_feeder
+[1.685s] running install
+[1.685s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.686s]   warnings.warn(
+[1.686s] running install_lib
+[1.686s] creating /home/user/install/automatic_dog_feeder/lib/python3.10/site-packages/automatic_dog_feeder
+[1.686s] copying /home/user/build/automatic_dog_feeder/build/lib/automatic_dog_feeder/PIRsensor.py -> /home/user/install/automatic_dog_feeder/lib/python3.10/site-packages/automatic_dog_feeder
+[1.686s] copying /home/user/build/automatic_dog_feeder/build/lib/automatic_dog_feeder/__init__.py -> /home/user/install/automatic_dog_feeder/lib/python3.10/site-packages/automatic_dog_feeder
+[1.686s] copying /home/user/build/automatic_dog_feeder/build/lib/automatic_dog_feeder/video_recording_node.py -> /home/user/install/automatic_dog_feeder/lib/python3.10/site-packages/automatic_dog_feeder
+[1.691s] byte-compiling /home/user/install/automatic_dog_feeder/lib/python3.10/site-packages/automatic_dog_feeder/PIRsensor.py to PIRsensor.cpython-310.pyc
+[1.691s] byte-compiling /home/user/install/automatic_dog_feeder/lib/python3.10/site-packages/automatic_dog_feeder/__init__.py to __init__.cpython-310.pyc
+[1.691s] byte-compiling /home/user/install/automatic_dog_feeder/lib/python3.10/site-packages/automatic_dog_feeder/video_recording_node.py to video_recording_node.cpython-310.pyc
+[1.691s] running install_data
+[1.692s] creating /home/user/install/automatic_dog_feeder/share/ament_index
+[1.692s] creating /home/user/install/automatic_dog_feeder/share/ament_index/resource_index
+[1.692s] creating /home/user/install/automatic_dog_feeder/share/ament_index/resource_index/packages
+[1.692s] copying resource/automatic_dog_feeder -> /home/user/install/automatic_dog_feeder/share/ament_index/resource_index/packages
+[1.692s] copying package.xml -> /home/user/install/automatic_dog_feeder/share/automatic_dog_feeder
+[1.692s] running install_egg_info
+[1.695s] Copying ../../../build/automatic_dog_feeder/automatic_dog_feeder.egg-info to /home/user/install/automatic_dog_feeder/lib/python3.10/site-packages/automatic_dog_feeder-0.0.0-py3.10.egg-info
+[1.695s] running install_scripts
+[1.729s] Installing PIRsensor script to /home/user/install/automatic_dog_feeder/lib/automatic_dog_feeder
+[1.729s] Installing video_recording_node script to /home/user/install/automatic_dog_feeder/lib/automatic_dog_feeder
+[1.730s] writing list of installed files to '/home/user/build/automatic_dog_feeder/install.log'
+[1.766s] Invoked command in '/home/user/ros2_ws/src/automatic_dog_feeder' returned '0': PYTHONPATH=/home/user/build/automatic_dog_feeder/prefix_override:/home/user/install/automatic_dog_feeder/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../../build/automatic_dog_feeder build --build-base /home/user/build/automatic_dog_feeder/build install --record /home/user/build/automatic_dog_feeder/install.log --single-version-externally-managed

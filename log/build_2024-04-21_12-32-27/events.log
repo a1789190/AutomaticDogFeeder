@@ -1,0 +1,66 @@
+[0.000000] (-) TimerEvent: {}
+[0.000650] (automatic_dog_feeder) JobQueued: {'identifier': 'automatic_dog_feeder', 'dependencies': OrderedDict()}
+[0.006844] (automatic_dog_feeder) JobStarted: {'identifier': 'automatic_dog_feeder'}
+[0.099225] (-) TimerEvent: {}
+[0.199632] (-) TimerEvent: {}
+[0.300029] (-) TimerEvent: {}
+[0.400432] (-) TimerEvent: {}
+[0.501087] (-) TimerEvent: {}
+[0.602255] (-) TimerEvent: {}
+[0.702680] (-) TimerEvent: {}
+[0.803116] (-) TimerEvent: {}
+[0.903514] (-) TimerEvent: {}
+[1.003932] (-) TimerEvent: {}
+[1.104398] (-) TimerEvent: {}
+[1.204835] (-) TimerEvent: {}
+[1.207638] (automatic_dog_feeder) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/automatic_dog_feeder', 'build', '--build-base', '/home/user/build/automatic_dog_feeder/build', 'install', '--record', '/home/user/build/automatic_dog_feeder/install.log', '--single-version-externally-managed'], 'cwd': '/home/user/ros2_ws/src/automatic_dog_feeder', 'env': {'ROS_VERSION': '2', 'GAZEBO_MASTER_URI': 'http://4_xterm:11345', 'ROS_PYTHON_VERSION': '3', 'HOSTNAME': '4_xterm', 'PWD': '/home/user/build/automatic_dog_feeder', 'PORT': '4000', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'ROS_IP': '', 'HOME': '/home/user', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'LANG': 'en_US.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/user/ros2_ws/install/automatic_dog_feeder:/opt/ros/iron', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo', 'COLCON_PREFIX_PATH': '/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install', 'GAZEBO_MASTER_PORT': '11345', 'NVM_DIR': '/usr/local/share/shell/.nvm', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PYTHONPATH': '/home/user/build/automatic_dog_feeder/prefix_override:/home/user/install/automatic_dog_feeder/lib/python3.10/site-packages:/home/user/ros2_ws/install/automatic_dog_feeder/lib/python3.10/site-packages:/opt/ros/iron/lib/python/site-packages:/opt/ros/iron/lib/python3.10/site-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics', 'COLCON': '1', 'TERM': 'xterm-color', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SNAPCRAFT_BUILD_ENVIRONMENT': 'host', 'GAZEBO_MASTER_HOSTNAME': '4_xterm', 'DISPLAY': ':1', 'SHLVL': '2', 'NVM_CD_FLAGS': '', 'ROS_MASTER_URI': 'http://4_xterm:11311', 'ROS_HOSTNAME': '4_xterm', 'LD_LIBRARY_PATH': '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'SLOT_SHELL_START_ID': '779657', 'SLOT_PREFIX': '8b5808b5-fdd0-4ff8-ba15-d9845c89bc7a', 'LC_ALL': 'C', 'SOURCE_ROS1_WS': '', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox', 'SLOT_JENKINS_PORT': '25848', 'SLOT_SYSTEMD': 'False', 'PATH': '/opt/ros/iron/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin', 'SELECTED_ROS_DISTRO': 'iron', 'NVM_BIN': '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin', 'NODE_VERSION': 'v8.17.0', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_DISTRO': 'iron', 'GAZEBO_VERBOSE': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'OLDPWD': '/home/user', 'SOURCE_ROS2_WS': 'True', 'SLOT_ROSBRIDGE_PORT': '20004', '_': '/usr/bin/env'}, 'shell': False}
+[1.304970] (-) TimerEvent: {}
+[1.405516] (-) TimerEvent: {}
+[1.505962] (-) TimerEvent: {}
+[1.606882] (-) TimerEvent: {}
+[1.682499] (automatic_dog_feeder) StdoutLine: {'line': b'running egg_info\n'}
+[1.683630] (automatic_dog_feeder) StdoutLine: {'line': b'creating ../../../build/automatic_dog_feeder/automatic_dog_feeder.egg-info\n'}
+[1.683922] (automatic_dog_feeder) StdoutLine: {'line': b'writing ../../../build/automatic_dog_feeder/automatic_dog_feeder.egg-info/PKG-INFO\n'}
+[1.684240] (automatic_dog_feeder) StdoutLine: {'line': b'writing dependency_links to ../../../build/automatic_dog_feeder/automatic_dog_feeder.egg-info/dependency_links.txt\n'}
+[1.684498] (automatic_dog_feeder) StdoutLine: {'line': b'writing entry points to ../../../build/automatic_dog_feeder/automatic_dog_feeder.egg-info/entry_points.txt\n'}
+[1.684700] (automatic_dog_feeder) StdoutLine: {'line': b'writing requirements to ../../../build/automatic_dog_feeder/automatic_dog_feeder.egg-info/requires.txt\n'}
+[1.684828] (automatic_dog_feeder) StdoutLine: {'line': b'writing top-level names to ../../../build/automatic_dog_feeder/automatic_dog_feeder.egg-info/top_level.txt\n'}
+[1.684992] (automatic_dog_feeder) StdoutLine: {'line': b"writing manifest file '../../../build/automatic_dog_feeder/automatic_dog_feeder.egg-info/SOURCES.txt'\n"}
+[1.687720] (automatic_dog_feeder) StdoutLine: {'line': b"reading manifest file '../../../build/automatic_dog_feeder/automatic_dog_feeder.egg-info/SOURCES.txt'\n"}
+[1.687960] (automatic_dog_feeder) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.689324] (automatic_dog_feeder) StdoutLine: {'line': b"writing manifest file '../../../build/automatic_dog_feeder/automatic_dog_feeder.egg-info/SOURCES.txt'\n"}
+[1.690093] (automatic_dog_feeder) StdoutLine: {'line': b'running build\n'}
+[1.690755] (automatic_dog_feeder) StdoutLine: {'line': b'running build_py\n'}
+[1.690940] (automatic_dog_feeder) StdoutLine: {'line': b'creating /home/user/build/automatic_dog_feeder/build\n'}
+[1.691113] (automatic_dog_feeder) StdoutLine: {'line': b'creating /home/user/build/automatic_dog_feeder/build/lib\n'}
+[1.691275] (automatic_dog_feeder) StdoutLine: {'line': b'creating /home/user/build/automatic_dog_feeder/build/lib/automatic_dog_feeder\n'}
+[1.691568] (automatic_dog_feeder) StdoutLine: {'line': b'copying automatic_dog_feeder/PIRsensor.py -> /home/user/build/automatic_dog_feeder/build/lib/automatic_dog_feeder\n'}
+[1.691702] (automatic_dog_feeder) StdoutLine: {'line': b'copying automatic_dog_feeder/__init__.py -> /home/user/build/automatic_dog_feeder/build/lib/automatic_dog_feeder\n'}
+[1.691800] (automatic_dog_feeder) StdoutLine: {'line': b'copying automatic_dog_feeder/video_recording_node.py -> /home/user/build/automatic_dog_feeder/build/lib/automatic_dog_feeder\n'}
+[1.692014] (automatic_dog_feeder) StdoutLine: {'line': b'running install\n'}
+[1.692136] (automatic_dog_feeder) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.692331] (automatic_dog_feeder) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.692453] (automatic_dog_feeder) StdoutLine: {'line': b'running install_lib\n'}
+[1.692791] (automatic_dog_feeder) StdoutLine: {'line': b'creating /home/user/install/automatic_dog_feeder/lib/python3.10/site-packages/automatic_dog_feeder\n'}
+[1.692939] (automatic_dog_feeder) StdoutLine: {'line': b'copying /home/user/build/automatic_dog_feeder/build/lib/automatic_dog_feeder/PIRsensor.py -> /home/user/install/automatic_dog_feeder/lib/python3.10/site-packages/automatic_dog_feeder\n'}
+[1.693112] (automatic_dog_feeder) StdoutLine: {'line': b'copying /home/user/build/automatic_dog_feeder/build/lib/automatic_dog_feeder/__init__.py -> /home/user/install/automatic_dog_feeder/lib/python3.10/site-packages/automatic_dog_feeder\n'}
+[1.693259] (automatic_dog_feeder) StdoutLine: {'line': b'copying /home/user/build/automatic_dog_feeder/build/lib/automatic_dog_feeder/video_recording_node.py -> /home/user/install/automatic_dog_feeder/lib/python3.10/site-packages/automatic_dog_feeder\n'}
+[1.697678] (automatic_dog_feeder) StdoutLine: {'line': b'byte-compiling /home/user/install/automatic_dog_feeder/lib/python3.10/site-packages/automatic_dog_feeder/PIRsensor.py to PIRsensor.cpython-310.pyc\n'}
+[1.697878] (automatic_dog_feeder) StdoutLine: {'line': b'byte-compiling /home/user/install/automatic_dog_feeder/lib/python3.10/site-packages/automatic_dog_feeder/__init__.py to __init__.cpython-310.pyc\n'}
+[1.698017] (automatic_dog_feeder) StdoutLine: {'line': b'byte-compiling /home/user/install/automatic_dog_feeder/lib/python3.10/site-packages/automatic_dog_feeder/video_recording_node.py to video_recording_node.cpython-310.pyc\n'}
+[1.698192] (automatic_dog_feeder) StdoutLine: {'line': b'running install_data\n'}
+[1.698325] (automatic_dog_feeder) StdoutLine: {'line': b'creating /home/user/install/automatic_dog_feeder/share/ament_index\n'}
+[1.698462] (automatic_dog_feeder) StdoutLine: {'line': b'creating /home/user/install/automatic_dog_feeder/share/ament_index/resource_index\n'}
+[1.698597] (automatic_dog_feeder) StdoutLine: {'line': b'creating /home/user/install/automatic_dog_feeder/share/ament_index/resource_index/packages\n'}
+[1.698745] (automatic_dog_feeder) StdoutLine: {'line': b'copying resource/automatic_dog_feeder -> /home/user/install/automatic_dog_feeder/share/ament_index/resource_index/packages\n'}
+[1.698876] (automatic_dog_feeder) StdoutLine: {'line': b'copying package.xml -> /home/user/install/automatic_dog_feeder/share/automatic_dog_feeder\n'}
+[1.699018] (automatic_dog_feeder) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.701959] (automatic_dog_feeder) StdoutLine: {'line': b'Copying ../../../build/automatic_dog_feeder/automatic_dog_feeder.egg-info to /home/user/install/automatic_dog_feeder/lib/python3.10/site-packages/automatic_dog_feeder-0.0.0-py3.10.egg-info\n'}
+[1.702142] (automatic_dog_feeder) StdoutLine: {'line': b'running install_scripts\n'}
+[1.706978] (-) TimerEvent: {}
+[1.735813] (automatic_dog_feeder) StdoutLine: {'line': b'Installing PIRsensor script to /home/user/install/automatic_dog_feeder/lib/automatic_dog_feeder\n'}
+[1.736175] (automatic_dog_feeder) StdoutLine: {'line': b'Installing video_recording_node script to /home/user/install/automatic_dog_feeder/lib/automatic_dog_feeder\n'}
+[1.736475] (automatic_dog_feeder) StdoutLine: {'line': b"writing list of installed files to '/home/user/build/automatic_dog_feeder/install.log'\n"}
+[1.772314] (automatic_dog_feeder) CommandEnded: {'returncode': 0}
+[1.796462] (automatic_dog_feeder) JobEnded: {'identifier': 'automatic_dog_feeder', 'rc': 0}
+[1.798026] (-) EventReactorShutdown: {}
