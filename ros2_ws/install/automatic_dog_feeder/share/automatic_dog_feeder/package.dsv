@@ -1,0 +1,6 @@
+source;share/automatic_dog_feeder/hook/pythonpath.ps1
+source;share/automatic_dog_feeder/hook/pythonpath.dsv
+source;share/automatic_dog_feeder/hook/pythonpath.sh
+source;share/automatic_dog_feeder/hook/ament_prefix_path.ps1
+source;share/automatic_dog_feeder/hook/ament_prefix_path.dsv
+source;share/automatic_dog_feeder/hook/ament_prefix_path.sh
