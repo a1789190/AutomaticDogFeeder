@@ -1,0 +1,4 @@
+[console_scripts]
+PIRsensor = automatic_dog_feeder.PIRsensor:main
+video_recording_node = automatic_dog_feeder.video_recording_node:main
+
